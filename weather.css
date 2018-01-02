@@ -1,0 +1,56 @@
+
+body{
+	font-family: 'Amatic SC', cursive;
+	color: white;
+}
+html{
+	height: 100%;
+}
+      
+@media (min-width: 768px) {
+      body{
+       background: url(pc.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      }
+}
+
+@media (max-width: 768px) {
+      body{
+       background: url(phone.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+     }   
+}
+
+#panel{
+	margin: 0 auto;
+	margin-top: 10%;
+	max-width: 400px;
+	text-align: center;
+}
+.fa-map-marker{
+	zoom: 1.5;
+}
+form{
+	margin-top: 10%;
+	width: 100%;
+}
+button{
+	font-family: 'Julee', cursive;
+	margin-top: 5%;
+  width: 100px;
+  
+}
+
+input{
+	font-family: 'Julee', cursive;
+}
+#alert{
+  margin-top: 10%;
+  font-family: 'Julee', cursive;
+}
